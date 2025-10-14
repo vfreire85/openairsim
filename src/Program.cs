@@ -13,6 +13,7 @@ namespace OpenAirSim
 
         public OpenAirSimGame()
         {
+            // When starting, this will open the GUI of the game and some initial assets when loading
             _graphics = new GraphicsDeviceManager(this)
             {
                 PreferredBackBufferWidth = 1280,
@@ -24,14 +25,14 @@ namespace OpenAirSim
 
         protected override void Initialize()
         {
-            // Dados iniciais da sessão do jogo, variáveis
+            // Variables and every necessary data to start a game session
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            // Verification of the existence of placeholder_map.png is verified here, and then loaded if it exists
             string mapPath = Path.Combine(Content.RootDirectory, "placeholder_map.png");
             if (File.Exists(mapPath))
             {
