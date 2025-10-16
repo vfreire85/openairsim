@@ -1,0 +1,82 @@
+# ========================================
+# OpenAirSim .gitignore
+# Environment: C#, .NET, MonoGame, Emacs
+# ========================================
+
+# --- Compilation / Build ---
+
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# --- Artefatos de publicação ---
+*.dll
+*.exe
+*.app
+*.pdb
+*.mdb
+*.cache
+*.log
+*.tmp
+*.bak
+*.swp
+*.user
+*.suo
+*.user
+*.swp
+*.dbmdl
+*.db
+*.DS_Store
+Thumbs.db
+
+# --- MonoGame / Content pipeline ---
+Content/bin/
+Content/obj/
+*.xnb
+
+# --- Local configurations ---
+.vscode/
+.idea/
+*.code-workspace
+*.sln.docstates
+
+# --- Emacs ---
+*~
+\#*\#
+.\#*
+.emacs.desktop
+.emacs.desktop.lock
+.tramp
+auto-save-list
+*.elc
+eshell/history
+eshell/lastdir
+/emacs-backups/
+
+# --- Operational System ---
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+
+# --- Git ---
+.gitignore
+.gitmodules
+.gitattributes
+
+# --- Logs and cache ---
+*.log
+*.tlog
+*.tmp
+*.temp
+*.pid
+*.seed
+.cache/
+logs/
