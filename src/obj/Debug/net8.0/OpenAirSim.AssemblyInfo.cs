@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenAirSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4bfe9d50ccf9f245d696ec8b6d96f4a9fa009ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f04bd981e701f1e34c9377495edbbdba612ed63")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenAirSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenAirSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

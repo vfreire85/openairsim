@@ -6,10 +6,20 @@
       <RootNamespace>OpenAirSim</RootNamespace>
       <Nullable>enable</Nullable>
       <ImplicitUsings>enable</ImplicitUsings>
+      <OutputPath>bin\$(Configuration)\</OutputPath>
+      <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.4" />
     </ItemGroup>
+
+    <ItemGroup>
+        <MonoGameContentReference Include="..\src\Content\Content.mgcb" />
+    </ItemGroup>
+
+    <Target Name="BuildContent" BeforeTargets="Build">
+      <Exec Command="dotnet mgcb /@:&quot;Content/Content.mgcb&quot; /platform:DesktopGL /outputDir:Content/bin/$(Configuration) /intermediateDir:Content/obj/$(Configuration)" />
+    </Target>
 
 </Project>

@@ -23,6 +23,7 @@
 /home/victor/OpenAirSim/src/obj/Debug/net8.0/OpenAirSim.AssemblyInfoInputs.cache
 /home/victor/OpenAirSim/src/obj/Debug/net8.0/OpenAirSim.AssemblyInfo.cs
 /home/victor/OpenAirSim/src/obj/Debug/net8.0/OpenAirSim.csproj.CoreCompileInputs.cache
+/home/victor/OpenAirSim/src/obj/Debug/net8.0/OpenAirSim.sourcelink.json
 /home/victor/OpenAirSim/src/obj/Debug/net8.0/OpenAirSim.csproj.CopyComplete
 /home/victor/OpenAirSim/src/obj/Debug/net8.0/OpenAirSim.dll
 /home/victor/OpenAirSim/src/obj/Debug/net8.0/refint/OpenAirSim.dll
