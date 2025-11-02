@@ -1,0 +1,10 @@
+[
+    {
+        "Model": "707-420",
+        "PassengerCapacity": 147,
+        "CargoCapacityKg": 11550,
+        "RangeKm": 7580,
+        "FuelConsumptionKm": 6.96,
+        "YearIntroduction": 1960
+    }
+]

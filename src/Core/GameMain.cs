@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using OpenAirSim.Graphics;
 using OpenAirSim.Input;
+using OpenAirSim.Core.Managers;
 
 namespace OpenAirSim.Core
 {
@@ -22,6 +23,9 @@ namespace OpenAirSim.Core
 
         protected override void Initialize()
         {
+            var dataManager = new DataManager("src/Data");
+            dataManager.LoadData();
+
             _graphicsManager = new GraphicsManager(GraphicsDevice);
             _inputManager = new InputManager();
 
